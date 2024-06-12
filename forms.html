@@ -3,11 +3,60 @@
     <head><title>Creating Forms</title></head>
     <body>
         <h1>Form controls</h1>
+        <!-- <form action="https://www.google.com/search">
+            <input type="text" name="q" placeholder="first name"> 
+        </form> -->
         
-        <form action="https://www.google.com/search" method="">
-            <input type="text" name="q" placeholder="first nme">
-            <button>select</button>
+        <form action="">
+            <p><label for="firstname">First name</label>
+            <input type="text" name="q" placeholder="first name" id="firstname"></p>
+
+            <p><label for="lastname">Last name</label>
+            <input type="text" name="q" placeholder="last name" id="lastname"></p>
+
+            <p><label for="password">Password</label>
+            <input type="password" placeholder="password" id="password"></p>
+
+            <p><label for="number">Phone number</label>
+            <input type="number" placeholder="phone number" id="number"></p>
+
+            <p><label for="dateandtime">Date and Time</label>
+            <input type="datetime-local" paceholder="date and time" id="dateandtime"></p>
+             
+            <button>Submit</button>
         </form>
+
+        <h2>Other form controls</h2>
+        <form action="">
+            <textarea rows="5" column="5"></textarea>
+
+            <input type="range" min="0" max="10">
+            <button>submit</button>
+
+            <p><label for="agreetoterms">I agree to the terms and condition</label>
+            <input type="checkbox" id="agreetoterms"></p>
+
+            <p>
+                <label for="">Select your shirt size:</label>
+                <select name="shirtsize" id="shirtsize">shirtsize
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                </select>
+                <button>submit</button>
+            </p>
+
+            <p>
+                <label for="phone">Text me</label>
+                <input type="radio" id="phone" name="contact">
+                <label for="email">Email me</label>
+                <input type="radio" id="email" name="contact">
+                <label for="phones">Call me</label>
+                <input type="radio" id="phones" name="contact">
+            </p>
+        </form>
+
+
     </body>
 
 
