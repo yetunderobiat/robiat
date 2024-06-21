@@ -1,0 +1,42 @@
+body{
+    background-color:rgba(41, 17, 17, 0.603);
+}
+
+h1{
+    background-color: rgb(0, 0, 0);
+    color: rgba(189, 26, 140, 0.959);
+    width: 170px;
+    height: 40px;
+    border-style:double;
+    border-width: 4px;
+
+}
+h3{
+    color: rgba(115, 47, 179, 0.575);
+    background-color: black;
+    border-style: double;
+    border-width: 3px;
+    width: fit-content;
+
+}
+h4{
+    color: rgba(46, 2, 87, 0.575);
+}
+
+span{
+    color: rgba(255, 0, 0, 0.671);
+}
+
+b{
+    color: rgba(173, 171, 10, 0.842);
+}
+
+div{
+    border-style: ridge;
+    border-color: rgba(6, 7, 5, 0.89);
+    border-width: 4px;
+    background-color: rgba(255, 255, 255, 0.582) ;
+    border-radius: 20px;
+    height: 230px;
+    width: 390px;
+}
