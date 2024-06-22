@@ -1,15 +1,19 @@
 body{
     background-color:rgba(41, 17, 17, 0.603);
+    font-family: "Tahoma";
+    font-weight: 300;
+    font-style: normal;
+    word-spacing: 10px;
+    line-height: 2;
 }
 
 h1{
-    background-color: rgb(0, 0, 0);
+    background-color:rgba(41, 17, 17, 0.603);
     color: rgba(189, 26, 140, 0.959);
-    width: 170px;
-    height: 40px;
-    border-style:double;
-    border-width: 4px;
-
+    font-family:  "Georgia";
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 20px ;
 }
 h3{
     color: rgba(115, 47, 179, 0.575);
@@ -17,6 +21,7 @@ h3{
     border-style: double;
     border-width: 3px;
     width: fit-content;
+    font-weight: ;
 
 }
 h4{
@@ -39,4 +44,7 @@ div{
     border-radius: 20px;
     height: 230px;
     width: 390px;
+}
+strong{
+    color: goldenrod;
 }
