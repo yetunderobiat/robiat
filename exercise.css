@@ -3,3 +3,21 @@ h1{
     text-align: center;
     font-family: sans-serif;
 }
+
+h2{
+    font: size 50px;
+    color: #932fbb;
+}
+
+h3{
+    font-family:Indie flower  ;
+    color: rgb(230, 79, 162);
+    font-size: 35px;
+}
+
+p{
+    font-weight: lighter;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: 10px;
+}
