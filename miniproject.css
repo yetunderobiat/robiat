@@ -4,8 +4,6 @@ h1{
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-
-  
 }
 
 h2{
@@ -15,7 +13,7 @@ h2{
 body{
    margin-left: 90px;
    margin-top: 140px;
-   background-color: rgba(165, 42, 42, 0.274);
+   background-color:#FF0000;
 }
 div{
     height: 400px;
