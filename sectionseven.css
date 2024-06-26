@@ -55,3 +55,44 @@ div{
 strong{
     color: goldenrod;
 }
+
+a{
+    text-decoration-line: none;
+}
+
+#dive{
+    color: rgba(21, 219, 219, 0.986);
+}
+
+.develop{
+    color: #d61515;
+
+}
+
+#lists{
+    list-style-type: square;
+}
+
+.lists{
+    list-style-type: "$";
+}
+
+.list{
+    list-style-image: linear-gradient(to left bottom, red, blue);
+}
+
+a:visited{
+    color: chocolate;
+}
+
+a:hover{
+    color:purple;
+    cursor: wait;
+    text-decoration: underline;
+}
+.text{
+    color: green;
+}
+#lorem2{
+    color: yellow;
+}
