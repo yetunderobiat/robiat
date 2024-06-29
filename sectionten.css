@@ -26,3 +26,20 @@ input[type="email"]{
 a[href$=".org"]{
     color: red;
 }
+
+h2.bright{
+    color: cyan;
+}
+.Another-button{
+    height: 40px;
+    width: 120px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Another-button:hover {
+    background-color: rgb(167, 111, 167);
+}
+.Another-button:active{
+    background-color:white;}

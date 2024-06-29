@@ -1,0 +1,32 @@
+h1{
+    background-color: cyan;
+    border-width: 5px;
+    border-color: purple;
+    border-style:solid  ;
+    width:250px ;
+    height: 150px;
+    padding: 40px;
+    margin: 50px;
+    box-sizing: border-box ;
+
+    /* padding: 5px 10px 15px 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right-color:red ;
+    border-left-color: blue;
+    border-top-color: green;
+    border-bottom-color: yellow; */
+}
+
+h2{
+    box-sizing: border-box ;
+    border: 50px solid green;
+    background-color: purple;
+    width:350px ;
+    height: 170px;
+    text-align: center;
+    padding-top: 20px;
+
+}
