@@ -33,11 +33,9 @@ h2{
 
 p{
     font-size: 30px;
-    border: ;
-
 }
 #word{
     border: 10px solid teal;
-    /* display: inline-block; */
-    display: block;
+    /* display: inline-block;
+    display: block; */
 }
