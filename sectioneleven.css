@@ -30,3 +30,14 @@ h2{
     padding-top: 20px;
 
 }
+
+p{
+    font-size: 30px;
+    border: ;
+
+}
+#word{
+    border: 10px solid teal;
+    /* display: inline-block; */
+    display: block;
+}
