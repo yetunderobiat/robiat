@@ -8,11 +8,12 @@ body{
     border-radius: 10px;
     border-color: rgba(133, 38, 38, 0.137);
     border-width: 70px;
-    width: 590px;
-    margin: 50px;
+    width: 600px;
+    /* margin: 50px; */
     padding-left: 60px;
-    padding-top: 20px;
-    margin: 150px auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin: 90px auto;
     
 }
 h2{
@@ -21,6 +22,7 @@ h2{
     font-weight: 300;
     font-family: Georgia;
     padding-bottom: 1px;
+    margin-bottom: 0;
 }
 h1{
     font-size: 40px;
@@ -30,6 +32,7 @@ h1{
     letter-spacing: 3px;
     color: rgba(235, 109, 109, 0.938);
     padding-top: 2px;
+    margin-top: 0;
    
 
 }
@@ -37,20 +40,23 @@ h1{
 p{
     font-size: 25px;
     font-family: cursive;
-    line-height: 25px;   
+    line-height: 29px;   
 }
 
-.lift{
+button{
     background-color: palevioletred;
-    width: 260px;
-    height: 40px;
+    width: 240px;
+    height: 45px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
     border-style: ridge;
-    border-width: 5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-width: 4px;
     text-transform: capitalize;
     box-shadow: 4px 4px 5px;
+    border-color: silver;
    
 
 }
