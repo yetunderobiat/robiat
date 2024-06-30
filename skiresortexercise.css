@@ -1,0 +1,56 @@
+body{
+    background-color: lightpink;
+}
+
+.design{
+    /* background-color: lightseagreen; */
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgba(133, 38, 38, 0.137);
+    border-width: 70px;
+    width: 590px;
+    margin: 50px;
+    padding-left: 60px;
+    padding-top: 20px;
+    margin: 150px auto;
+    
+}
+h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: Georgia;
+    padding-bottom: 1px;
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    color: rgba(235, 109, 109, 0.938);
+    padding-top: 2px;
+   
+
+}
+
+p{
+    font-size: 25px;
+    font-family: cursive;
+    line-height: 25px;   
+}
+
+.lift{
+    background-color: palevioletred;
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    border-style: ridge;
+    border-width: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    box-shadow: 4px 4px 5px;
+   
+
+}
