@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* sibling combinations */
+h1~p{
+    color:rgb(194, 235, 82);
+  
+}
+h2 + p{
+    color:orange;
+
+}
+/* pseudo classes */
+h2:hover{
+    color:greenyellow
+}
+input:placeholder-shown{
+    background-color: aqua;
+}
+input:disabled{
+    background-color: peru;
+}
+/* a:visited{
+    color:red;
+} */
+/* li:first-of-type{
+    border: 1px rgb(100, 94, 34) solid;
+}  */
+li:nth-of-type(2n){
+    border: 1px rgb(155, 40, 40) solid;
+
+} 
+button:active{
+    background-color: pink;
+}
+input:focus{
+    border: 4px rgb(206, 36, 155) solid;
+}
+/* body:not(h1, h2, h3, h4, h5, h6){
+    border: 2px sold royalblue;
+} */
