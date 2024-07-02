@@ -40,3 +40,13 @@ input:focus{
 /* body:not(h1, h2, h3, h4, h5, h6){
     border: 2px sold royalblue;
 } */
+/* p:first-of-type::first-letter{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 200%;
+}  */
+/* p::first-line{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 200%;
+}  */

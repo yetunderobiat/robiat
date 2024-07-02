@@ -7,12 +7,11 @@ body{
 nav{
     position: fixed;
     width:130px ;
-    background-color:rgb(76, 206, 76) ;
+    background-color:rgba(59, 57, 57, 0.692) ;
     height: 990px;
     text-align: left;
     padding:4em ;
     margin-left: 0;
-    color:skyblue ;
 }
 html{
     scroll-behavior: smooth;
@@ -29,32 +28,32 @@ section{
     margin-left:258px;
     margin-bottom: 0;
     margin-right: 40px;
-    background-color: rgb(91, 231, 220);
-    padding: 12em;
+    padding: 6em;
     width: 130px;
     height: 990px;
 }
 #breakfast{
     background-color: rgb(216, 52, 52);
-    color: white;
-    text-shadow:3px 3px 3px black;
+    color: black;
+    text-shadow:2px 4px 8px rgb(235, 22, 235);
+    font-size: 40px;
     
 }
 #lunch{
-    background-color: rgb(104, 191, 219);
-    color: white;
-    text-shadow:3px 3px 3px black;
-    font-size: 900;
+    background-color: rgb(25, 52, 206);
+    color: black;
+    text-shadow:2px 4px 8px rgb(235, 22, 235);
+    font-size: 40px;
 }
 #dinner{
     background-color: rgb(255, 251, 10);
-    color: white;
-    text-shadow:3px 3px 3px black;
-    font-size: 900;
+    color: black;
+    text-shadow:2px 4px 8px rgb(235, 22, 235);
+    font-size: 40px;
 }
 #others{
     background-color:brown;
-    color: white;
-    text-shadow:3px 3px 3px black;
-    font-size: 900;
+    color:black;
+    text-shadow:2px 4px 8px rgb(235, 22, 235);
+    font-size: 40px;
 }
