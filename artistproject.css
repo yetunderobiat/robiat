@@ -1,76 +1,79 @@
 body{
+    background-color:rgb(214, 135, 161) ;
     font-family: Libre Baskerville;
-    background-color: rgb(228, 134, 142);
 }
-header{
-    border-color: rgba(0, 0, 0, 0.342);
-    border-style: ridge;
-    border-width: 4px;
-    margin-top: 30px;
-    padding: 12px;
-
-}
-
 h1{
     display: inline-block;
-    font-weight: 900;
-    margin: 0 40px 0 0;
-
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px 35px 0 40px;
+    text-transform: capitalize;
 }
-
+.border{
+    border-radius: 3px;
+    border-style: groove;
+    padding-bottom: 4px;
+    border-color: rgb(201, 59, 106);
+}
+nav{
+    display: inline-block;
+}
 .links{
     display: inline-block;
-    margin: 10px;
 }
 .links li{
     display: inline-block;
 }
 .links a{
+    color: darkred;
     text-decoration: none;
-    color: rgb(216, 13, 80);
-    font-size: 20px;
-    margin: 20px;
+    font-size: 23px;
+    margin-left: 60px;
+}
+a:hover{
+    color: rgb(167, 111, 167);
 
 }
-.card{
-    display: inline-block;
-    width: 42%;
-    box-sizing: border-box;
-    margin: 60px;
-    border: 5px solid rgb(216, 13, 80);
-    border-style: ridge;
-    background-color: rgba(51, 243, 92, 0.932);
-     
+
+.links ul{
+    padding:0; 
+}
+.navbar{
+    margin: 32px; ;
 }
 .card img{
-    height: 600px;
-    width: 742px;
+    height:600px;
+    width: 500px;
+    padding: 20px 20px;
+    margin-left: 200px;
 }
-h3{
-    text-align: center;
+.card{
+    width: 40%;
+    display: inline-block;  
+     
 }
-
-p{
-  /* display: block; */
-width: 500px;
-height: 20px;
-padding-left: 70px;
-font-weight: 600;
-font-size: large;
-
+.card:hover{
+    opacity: 0.6;
+}
+.card h2{
+    font-size: 20px;
+    padding: 20px 20px;
+    margin-left: 220px;
+    border: rgb(74, 41, 107) 3px ridge;
+    background-color: rgb(204, 110, 110);   
 }
 .about{
     width: 40%;
     min-width: 600px;
      margin: 100px 0 100px 50px; 
-    
+
 }
 .about h3{
     font-size: 30px;
     font-weight: 300;
     margin: 100px 0 100px 50px; 
     text-align: left;
-
+    
     
 }
 .Let{
@@ -79,5 +82,7 @@ font-size: large;
 }
 .contacts{
     font-size: 25px;
+    margin: 100px 0 100px 50px; 
+    
     text-align: left;
 }
