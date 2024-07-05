@@ -33,6 +33,8 @@ h4 {
     text-transform: uppercase;
     font-weight: 700;
     margin: 43px 0;
+    font-size: 18px
+    ;
 }
 h2{
     font-size: 45px;
@@ -50,4 +52,11 @@ h2{
     font-weight: bold;
     margin-left: 450px;
     font-size: 20px;
+}
+img{
+    display: inline;
+    
+}
+.Neptune{
+    text
 }
