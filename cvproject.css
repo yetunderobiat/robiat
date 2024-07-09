@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:Elsie;
+}
+.hero{
+    height: 90vh;
+    background-color: #4a4055;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black ;
+    padding: 24px 32px;
+    box-sizing: border-box;
+}
+.navbar .links a{
+    color: black;
+    text-decoration: none;
+    margin-right: 16px; 
+    font-size: 1.2rem;
+}
+.navbar p{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+.navbar .contact{
+    background-color: black;
+    color: #4a4055;
+    text-decoration: none;
+    padding:16px 24px ;
+}
+.navbar .contact:hover{
+    opacity: 0.5;
+}
+.content{
+    padding: 0 15%;
+}
+.more{
+    font-size: 1.7rem;
+    color: black;
+    letter-spacing: 1px;
+    padding: 22px 0;   
+}
+.section{
+   font-size: 1.5rem; 
+}
+.section p{
+    width: 50%;
+    box-sizing:border-box ;
+    float: left;
+}
