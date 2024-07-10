@@ -1,7 +1,53 @@
 .box{
-    border: 1px solid red;
+    /* short-hand propertys */
+    border: 2px solid red;
     height: 500px;
     width: 500px;
     /* background-color: #f323c4; */
-    background-image: url("https://plus.unsplash.com/premium_photo-1716259490229-303964fd2e52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8");
+    background: url("https://images.unsplash.com/photo-1718068769782-b76cda287298?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNnx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
+    /* background-repeat: repeat; */
+    /* background-size: cover; */
+    /* background-position: right; */
+    /* padding: 20px; */
+    /* background-clip: border-box; */
+    filter: blur(3px);
+    /* filter:grayscale() contrast() ; */
+    /* filter: hue-rotate(180deg); */
 }
+.boxtwo{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background:conic-gradient( red , green , yellow, purple);  
+}
+.boxthree{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background:linear-gradient( red, green , yellow, purple); 
+}
+.boxfour{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background:radial-gradient( red, green , yellow, purple); 
+}
+.boxfive{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background:repeating-linear-gradient( 45deg, red 30%, green , yellow, purple); 
+}
+.boxsix{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background:repeating-radial-gradient( red 80%, green , yellow, purple); 
+}
+.boxseven{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background:repeating-conic-gradient( red 70%, green 40% , yellow, purple); 
+}
+
