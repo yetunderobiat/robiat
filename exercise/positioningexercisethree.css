@@ -4,9 +4,9 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
 }
 button{
     position: absolute;
-    right: 0;
+    left: 0;
 }
