@@ -16,6 +16,10 @@ body{
     font-weight: 700;
     padding-left: 15px;
     font-family: Neuton;
+    transition: transform 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.head:hover{
+    transform: translateX(100px);
 }
 .content a{
     font-family: Lobster Two;
@@ -40,8 +44,10 @@ body{
     object-fit: cover;
     overflow: hidden;
     border-radius: 30px;
+    transition: transform 1s ;
 }
 .images img:hover{
+    transform: rotate(90deg);
     opacity: 0.3;
 }
 .pink{
