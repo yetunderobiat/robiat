@@ -1,11 +1,72 @@
-header{
-    border: 2px solid black;
-    padding: 0;
+html{
+    scroll-behavior: smooth;
 }
-nav{
+body{
+    max-height: 100vh;
+}
+.container{
     display: flex;
-    font-size: 30px;
+    min-height: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient( rgb(207, 119, 119), rgb(164, 98, 164));
 }
-nav .menu{
-    padding-left: 800px;
+.head{
+    font-size: 45px;
+    font-weight: 800;
+    padding-left: 15px;
 }
+.content a{
+    text-decoration: none;
+    display:inline-block; 
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+}
+.content a:hover{
+    color: rgb(181, 178, 178);
+}
+.images{
+    width: 20%; 
+    display: inline-block;   
+    justify-content: space-around;
+}
+.images img{
+    height:30px;
+    width: 30px;
+    border: 1px solid black;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 30px;
+    
+}
+.images img:hover{
+    opacity: 0.3;
+}
+section{
+    margin: 0;
+
+}
+.pink{
+    width: 90%;
+    display: flex;
+    position: relative;
+    
+}
+.pink img{
+    height:440px;
+    width:434px;
+    justify-content: space-between;
+}
+.pinkone img{
+    
+}
+.pinktwo img{
+   
+
+
+}
+.pinkthree img{
+
+}
+
