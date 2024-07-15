@@ -28,8 +28,10 @@ body{
     color: black;
     font-size: 20px;
     padding: 0 10px;
+    transition: transform 0.4s ease-in-out;
 }
 .content a:hover{
+    transform:scale(0.80) ;
     color: rgb(181, 178, 178);
 }
 .images{
@@ -60,9 +62,11 @@ body{
     height:440px;
     width:434px;
     justify-content: space-between;
+    transition:transform 0.2s ease-in-out;
 }
 .pink img:hover{
-    opacity: 0.6;
+    transform: translateY(-7px);
+    opacity: 0.8;
 }
 .pinkone img{
     position: relative;
@@ -83,6 +87,12 @@ body{
     position: absolute;
     left: 565px;
     bottom: 10px;
+    transition:transform 0.5s ease-in-out;
+}
+.design p:hover{
+    transform: translateY(-7px);
+    background:linear-gradient( rgb(207, 119, 119), rgb(164, 98, 164));
+    color: black;
 }
 .foot{
     margin: 0;
