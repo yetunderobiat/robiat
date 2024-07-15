@@ -12,11 +12,13 @@ body{
     background:linear-gradient( rgb(207, 119, 119), rgb(164, 98, 164));
 }
 .head{
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 55px;
+    font-weight: 700;
     padding-left: 15px;
+    font-family: Neuton;
 }
 .content a{
+    font-family: Lobster Two;
     text-decoration: none;
     display:inline-block; 
     color: black;
@@ -38,35 +40,48 @@ body{
     object-fit: cover;
     overflow: hidden;
     border-radius: 30px;
-    
 }
 .images img:hover{
     opacity: 0.3;
 }
-section{
-    margin: 0;
-
-}
 .pink{
+    margin: 0;
+    padding: 0;
     width: 90%;
-    display: flex;
-    position: relative;
-    
+    display: flex; 
 }
 .pink img{
     height:440px;
     width:434px;
     justify-content: space-between;
 }
+.pink img:hover{
+    opacity: 0.6;
+}
 .pinkone img{
-    
+    position: relative;
 }
 .pinktwo img{
-   
-
-
+    position: relative;
+    top: 25px;
 }
-.pinkthree img{
-
+.design p{
+    font-size: 15px;
+    font-family: Bodoni Moda;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    left: 565px;
+    bottom: 10px;
+}
+.foot{
+    margin: 0;
+    padding: 0;
+    height: 56px;
+    background:linear-gradient( rgb(207, 119, 119), rgb(164, 98, 164));
 }
 
