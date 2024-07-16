@@ -3,6 +3,8 @@ html{
 }
 body{
     max-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 .container{
     display: flex;
@@ -35,8 +37,8 @@ body{
     color: rgb(181, 178, 178);
 }
 .images{
-    width: 20%; 
-    display: inline-block;   
+    width: 15%; 
+    display: flex;   
     justify-content: space-around;
 }
 .images img{
@@ -53,15 +55,15 @@ body{
     opacity: 0.3;
 }
 .pink{
-    margin: 0;
-    padding: 0;
-    width: 90%;
+    width: 100%;
     display: flex; 
+    flex-direction: row;
 }
 .pink img{
-    height:440px;
-    width:434px;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    min-height: 100vh;
     transition:transform 0.2s ease-in-out;
 }
 .pink img:hover{
