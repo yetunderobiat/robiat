@@ -10,8 +10,9 @@ h1{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 span{
     border: 2px solid black;
@@ -21,6 +22,6 @@ span{
     height: 30px;
     border-radius: 10px;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     padding: 25px 0;
 }
