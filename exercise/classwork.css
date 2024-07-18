@@ -1,0 +1,19 @@
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+.images img{
+    width: 400px;
+    height: 300px;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+section{
+    width: 30%;
+    height: 50vh;
+}
