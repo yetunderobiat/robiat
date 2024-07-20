@@ -1,0 +1,26 @@
+body{
+    margin: 0; 
+}
+.box{
+    border: 3px solid black;
+    width: 40%;
+    height: 90vh;
+    margin: 25px auto;
+    padding-left: 20px;
+}
+h1{
+    font-size: 35px;
+    margin: 15px 0;
+}
+form{
+min-width: 100%;
+display: inline-block;
+}
+form input {
+    width: 100px;
+    height: 100px;
+}
+form label{
+    display: block;
+    margin-bottom: 2px;
+}
