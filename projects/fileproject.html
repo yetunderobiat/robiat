@@ -5,35 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="fileproject.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+            </style>
 </head>
 <body>
     <div class="box">
      <h1>Contact Us</h1>
 
      <form action="">
-    
-        <p class="name"><label for="firstname">First name</label>
-        <input type="text" name="q" placeholder="first name" id="firstname"> <label for="lastname">Last name</label>
-        <input type="text" name="q" placeholder="last name" id="lastname"></p>
+        <div id="fullname">
+          
+            <label id="firstLabel" for="fname">First Names
+            <input type="text" id="fname" name="firstname" placeholder="e.g robiat"> </label>
+            <br>
 
-        <p><label for="mail">Email Address</label>
-        <input type="text" placeholder="user234@gmail.com" id="mail"></p>
+            <label id="lastLabel" for="lname">Last Name
+            <input type="text" id="lname" name="lastname" placeholder="e.g ibrahim"></label>
+            <br>
+        </div>
 
-        <p>Query Type
-            <label for="enquiry">General Enquiry</label>
-            <input type="radio" id="enquiry" name="contact">
-            <label for="request">Support Request</label>
-            <input type="radio" id="request" name="contact">
+        <p class="email">
+            <label for="mail">Email Address</label>
+            <input type="text" placeholder=" e.g user234@gmail.com" id="mail">
         </p>
 
-        <p><label for="message">Messages</label>
+            <p class="type">Query Type</p>
+            <label class="enquiry" for="ename">General Enquiry</label>
+            <input type="radio" id=ename name="contact">
+            <label id=requestLabel for="rname">Support Request</label>
+            <input type="radio" id="rname" name="contact">
+            
+        <p class="msg"><label for="message">Messages</label>
             <input type="text" id="message"></p>
 
-        <p> <label for="consent">I consent to being contacted by the team</label><input type="checkbox" id="consent"></p>
+        <div class="checkDIV">
+            <input type="checkbox" class="checkbox" id="autologin" name="autologin" value="1">
+            <label for="consent">I consent to being contacted by the team</label>
+        </div>
          
-        <button>Submit</button>
+        <button><a href="#" target="_blank">Submit</a></button>
     </form>
-
     </div>
 </body>
 </html>

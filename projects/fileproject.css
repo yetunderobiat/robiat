@@ -2,25 +2,123 @@ body{
     margin: 0; 
 }
 .box{
-    border: 3px solid black;
+    border: 3px ridge black;
     width: 40%;
     height: 90vh;
     margin: 25px auto;
-    padding-left: 20px;
+    padding:  0 20px;
+    background-color: lightgreen;
 }
 h1{
     font-size: 35px;
     margin: 15px 0;
+    text-transform: uppercase;
+    transition: transform 2s cubic-bezier(0.055, 0.2, 0.155, 1);
+    font-family:DM Serif Display ;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
-form{
-min-width: 100%;
-display: inline-block;
+h1:hover{
+    transform: translateX(300px);
+    color: darkgreen;
+    font-family: EB Garamond;
 }
-form input {
-    width: 100px;
-    height: 100px;
+#fullname {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
 }
-form label{
+#firstLabel {
+    display: grid; 
+}
+
+#firstError {
+    display: grid;
+}
+#lastLabel {
+    display: grid;
+    margin-left: 40px;
+}
+#lastError {
+    display: grid;
+}
+#fname {
+    display: grid;
+    width: 116%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+#lname {    
+    display: grid; 
+    width: 116%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.email label{
+    display: inline-block;
+}
+.type label{
+    display: flex;
+    flex-direction: column-reverse;   
+}
+.msg label{
+    display: inline-block;
+}
+label{
+    font-size: 20px;
+    font-family: EB Garamond;
+
+}
+input{  
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+}
+input[type="checkbox"]:checked{
+    box-shadow: 0 0 0 2px darkgreen;
+}
+input[type="text"]:hover{
+    background-color: rgb(140, 201, 140);
+    box-shadow: 0 0 0 2px darkgreen;
+}
+.email input{
     display: block;
-    margin-bottom: 2px;
+    width: 95%;
+    height: 30px;   
 }
+.type input{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.msg input{
+    display: block;
+    width: 95%;
+    height: 70px; 
+}
+.checkDIV
+{
+    text-align:left;
+}
+button{
+     display: block;
+     margin: 25px auto;
+     height: 35px;
+     width: 100%;
+     font-weight: 600;
+     font-size: 15px;
+     background-color: darkgreen;
+     text-align: center;
+     transition:transform 0.4s ease-in-out ;
+    }
+a{ 
+    color: white;
+    text-decoration: none;
+}
+button:active {
+    transform:translate3d(3px);
+}
+.type{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
