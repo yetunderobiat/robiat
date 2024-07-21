@@ -51,12 +51,17 @@ img:hover{
     font-size: 10px;
 }
 .note button{
-    text-decoration: none;
     padding: 8px 30px;
-    margin-right: 10px;
-    color: black;
+    margin-right: 70px; 
+}
+button{
+    align-items: center;
+    width:90% ;
 }
 button:hover{
-    color: white;
-    background-color: rgb(50, 197, 50);
+    background-color:rgb(48, 155, 237);
+}
+a{
+    text-decoration: none;
+    color: black;
 }
