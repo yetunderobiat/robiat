@@ -2,12 +2,13 @@ body{
     margin: 0; 
 }
 .box{
-    border: 3px ridge black;
-    width: 40%;
-    height: 90vh;
+    border: 1px solid;
+    border-radius: 6px;
+    width: 35%;
+    height: 80vh;
     margin: 25px auto;
     padding:  0 20px;
-    background-color: lightgreen;
+    
 }
 h1{
     font-size: 35px;
@@ -118,7 +119,10 @@ button:active {
     transform:translate3d(3px);
 }
 .type{
+    display: flex;
     font-size: 20px;
     margin-bottom: 5px;
 }
-
+#type{
+    display: flex;
+}
