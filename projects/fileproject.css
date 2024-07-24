@@ -119,10 +119,13 @@ button:active {
     transform:translate3d(3px);
 }
 .type{
-    display: flex;
+    display: inline-block;
     font-size: 20px;
     margin-bottom: 5px;
 }
-#type{
+#type label{
+    display: flex;
+}
+#type input{
     display: flex;
 }
