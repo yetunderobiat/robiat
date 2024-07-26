@@ -10,9 +10,7 @@
 }
 .sidebar{
     background-color: palevioletred;
-    width: 200px;
-    flex-grow: 2;
-    flex-shrink: ;
+    width: 20
 }
 p{
     background-color: aqua;
