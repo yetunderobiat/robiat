@@ -1,56 +1,17 @@
 body{
     height: 100vh;
-    background-color:rgb(221, 149, 221);
+    background-color:rgb(233,223 , 255);
     display: flex;
-    justify-content: center;
-    align-content: center
+    justify-content: column;
+    align-content: center;
+    padding: 32px;
+    color: rgb(44, 44, 44);
 }
-.box{
-    border-radius: 4px;
-    background-color:white;
-    width: 50%;
-    height: 95vh;
+h1{
+    color: rgb(83, 49, 156);
 }
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 15px 0;
-    font-size: 10px;
-}
-a{
-    text-decoration: none;
-    color: grey;
-}
-a:hover{
-    color: purple;
-    text-decoration: underline;
-}
-.image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-img{
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-}
-.details{
-    display: flex;
-    flex-direction: row;
-    background-color: purple;
-    padding: 6px;
-    font-size: 7px;
-    margin: 0 6px;
-    width: 4rem;
-    height: 1px;
-    border-radius: 10px;
-}
-.details .photo{
-}
-.details .phone{
-    border-radius: 10px;
+.container{
     background-color: white;
+    width: 100%;
+    max-width: 900px;
 }
