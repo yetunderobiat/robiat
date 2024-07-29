@@ -6,28 +6,29 @@ body{
     border-radius: 6px;
     width: 35%;
     height: 80vh;
-    margin: 25px auto;
-    padding:  0 20px;
+    margin: 15px auto;
+    padding:  0 15px;
     
 }
 h1{
-    font-size: 35px;
-    margin: 15px 0;
+    font-size: 25px;
+    margin: 5px 0;
     text-transform: uppercase;
     transition: transform 2s cubic-bezier(0.055, 0.2, 0.155, 1);
     font-family:DM Serif Display ;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 2px;
 }
 h1:hover{
-    transform: translateX(300px);
+    transform: translateX(100px);
     color: darkgreen;
     font-family: EB Garamond;
 }
 #fullname {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 8px;
+    margin: 3px 3px;
 }
 #firstLabel {
     display: grid; 
@@ -38,25 +39,24 @@ h1:hover{
 }
 #lastLabel {
     display: grid;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 #lastError {
     display: grid;
 }
 #fname {
     display: grid;
-    width: 116%;
-    height: 25px;
-    margin-bottom: 10px;
+    width: 100%;
+    height: 15px;
 }
 #lname {    
     display: grid; 
-    width: 116%;
-    height: 25px;
-    margin-bottom: 10px;
+    width: 100%;
+    height: 15px;
 }
 .email label{
     display: inline-block;
+    margin-top: 5px;
 }
 .type label{
     display: flex;
@@ -66,12 +66,13 @@ h1:hover{
     display: inline-block;
 }
 label{
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 15px;
     font-family: EB Garamond;
-
 }
 input{  
-    border-radius: 5px;
+    margin: 5px 0;
+    border-radius: 3px;
     border-color: black;
     border-width: 1px;
 }
@@ -82,30 +83,37 @@ input[type="text"]:hover{
     background-color: rgb(140, 201, 140);
     box-shadow: 0 0 0 2px darkgreen;
 }
+.email{
+    margin: 3px 3px;
+}
 .email input{
     display: block;
     width: 95%;
-    height: 30px;   
+    height: 20px;   
 }
 .type input{
     display: flex;
     flex-direction: column-reverse;
 }
+.msg{
+    margin: 3px 3px;
+}
 .msg input{
     display: block;
     width: 95%;
-    height: 70px; 
+    height: 50px; 
 }
 .checkDIV
 {
+    margin: 0 3px;
     text-align:left;
 }
-button{
+.links{
      display: block;
-     margin: 25px auto;
-     height: 35px;
+     margin: 20px auto;
+     height: 30px;
      width: 100%;
-     font-weight: 600;
+     font-weight: 500;
      font-size: 15px;
      background-color: darkgreen;
      text-align: center;
@@ -115,17 +123,24 @@ a{
     color: white;
     text-decoration: none;
 }
-button:active {
+.links:active {
     transform:translate3d(3px);
 }
+.general{
+    margin: 10px 3px;
+    display: flex;
+}
+.enquiry{
+    display: flex;
+    padding: 0 20px;
+}
+.request{
+    display: flex;
+    padding: 0 20px;
+    margin-left: 15px;
+}
 .type{
-    display: inline-block;
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-#type label{
-    display: flex;
-}
-#type input{
-    display: flex;
+    margin: 7px 0;
+    font-size: 15px;
+    font-weight: 500;
 }

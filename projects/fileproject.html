@@ -19,30 +19,36 @@
      <form action="">
         <div id="fullname">
           
-            <label id="firstLabel" for="fname">First Names
-            <input type="text" id="fname" name="firstname" placeholder="e.g robiat"> </label>
+            <label id="firstLabel" for="fname">First Names *
+            <input type="text" id="fname" name="firstname"> </label>
             <br>
 
-            <label id="lastLabel" for="lname">Last Name
-            <input type="text" id="lname" name="lastname" placeholder="e.g ibrahim"></label>
+            <label id="lastLabel" for="lname">Last Name *
+            <input type="text" id="lname" name="lastname"></label>
             <br>
         </div>
 
         <p class="email">
-            <label for="mail">Email Address</label>
-            <input type="text" placeholder=" e.g user234@gmail.com" id="mail">
+            <label for="mail">Email Address *</label>
+            <input type="text" id="mail">
         </p>
 
-            <p class="type">Query Type
-            <button id="type">
-                <label class="enquiry" for="ename">General Enquiry</label>
-            <input type="radio" id=ename name="contact">
-            <label id=requestLabel for="rname">Support Request</label>
-            <input type="radio" id="rname" name="contact">
-            </button>
-            </p>
+            <p class="type">Query type *</p>
+            <div class="general">
+                <button class="enquiry">
+                    <input type="radio" id="enquiry" name="enquiry">
+                    <label for="enquiry">General Enquiry</label>
+                </button>
+                <button class="request">
+                    <input type="radio" id="request" name="enquiry">
+                    <label for="request">Support Request</label>
+                </button>
+            </div>
             
-        <p class="msg"><label for="message">Messages</label>
+            
+            
+            
+        <p class="msg"><label for="message">Messages *</label>
             <input type="text" id="message"></p>
 
         <div class="checkDIV">
@@ -50,7 +56,7 @@
             <label for="consent">I consent to being contacted by the team</label>
         </div>
          
-        <button><a href="#" target="_blank">Submit</a></button>
+        <button class="links"><a href="#" target="_blank">Submit</a></button>
     </form>
     </div>
 </body>
