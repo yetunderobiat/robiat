@@ -13,8 +13,8 @@ h1{
 }
 .container{
     background-color: white;
-    width: 90%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
