@@ -1,5 +1,23 @@
 .container{
+    background-color: black;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px ;
+    margin: 10px auto;
+    width: 50%;
 }
+.container .thing{
+    height: 200px;
+}
+.first{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 2;
+}
+/* @media only screen and (width<600px){
+    .container{
+        margin: 10px auto;
+    }
+} */
