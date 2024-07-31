@@ -6,16 +6,15 @@
     gap:10px ;
     margin: 10px auto;
     width: 50%;
+    grid-template-columns: repeat(minmax(300px, 1fr));
 }
 .container .thing{
     height: 200px;
 }
-.first{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 2;
-}
+/* .first{
+    grid-column: 2;
+    grid-row: 2;
+} */
 /* @media only screen and (width<600px){
     .container{
         margin: 10px auto;
