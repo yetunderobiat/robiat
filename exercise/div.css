@@ -1,0 +1,33 @@
+ body{
+    margin: 0;
+    padding: 0;
+ }
+ /* .box{
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    margin: 150px auto;
+} */
+/* .box{
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    left: 500px;
+    top: 170px;
+} */
+/* .box{
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.box{
+    background-color: black;
+    /* display: grid; */
+    margin: 150px auto;
+    width: 30%; 
+    height: 300px;
+}
