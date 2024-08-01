@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    background-color: tomato;
+    height: 200px;
+    width: 200px;
+    animation:2s move ease-in-out ;
+    animation-fill-mode: forwards infinite;
+    animation-delay: 2s;
+}
+@keyframes move{
+    0%{
+        transform: translateX(0);
+        background-color: darkblue;
+    }
+    100%{
+        transform: translateX(300px);
+        background-color: blueviolet;
+    }
+}
