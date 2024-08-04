@@ -1,49 +1,62 @@
-body{
-    font-family: "Poppins", sans-serif;
-    /* width: 80vw;
-    height: 80vh;
-    margin: 0 auto; */
-    padding: 0;
-    margin: 0;
-}
+/* 
 .project{
     position: relative;
 
 }
 .project-grid{
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+} 
+ */
+ body{
+    font-family: "Poppins", sans-serif;
+}
+.project{
+    /* width: 300px; */
+    position: relative;
+}
+.project-grid{
+    display: grid;
     grid-template-areas: 
-    "one one two"
-    "one one three"
-    /* "four five three"
-    "six" "seven" "seven"
-    "six" "seven" "seven";
-} */}
-#one{
-    grid-area: one;
+    "eth eth alphabet"
+    "eth eth traveler"
+    "astro cube traveler"
+    "cup insta insta"
+    "cup insta insta"
+    "foam foam dimensional"
+    "foam foam dimensional";
 }
-#two{
-    grid-area: two;
+#eth{
+    grid-area: eth;
 }
-/* #three{
-    grid-area: three;
+#alphabet{
+    grid-area: alphabet;
 }
-#four{
-    grid-area: four;
+#traveler{
+    grid-area: traveler;
 }
-#five{
-    grid-area: five;
+#astro{
+    grid-area: astro;
 }
-#six{
-    grid-area: six;
+#cube{
+    grid-area: cube;
 }
-#seven{
-    grid-area: seven;
-} */
-
+#cup{
+    grid-area: cup;
+}
+#insta{
+    grid-area: insta;
+}
+#foam{
+    grid-area: foam;
+}
+#dimensional{
+    grid-area: dimensional;
+}
 .project img{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 .project .overlay{
@@ -51,8 +64,8 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
