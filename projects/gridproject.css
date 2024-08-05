@@ -14,7 +14,7 @@ body{
 }
 .navbar .left{
     font-weight: bolder;
-    font-size:32px ;
+    font-size:35px ;
 }
 .navbar .right{
     width: 400px;
@@ -26,15 +26,32 @@ body{
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    transition: transform 1s ;
+}
+.navbar .right img:hover{
+    transform: rotate(180deg);
 }
 .navbar .right a{
     text-decoration: none;
     color: black;
+    transition: transform 0.4s ease;
 }
 .navbar .right a:hover{
     text-decoration: underline;
-
+    transform:scale(1.15) ;
 }
+/* .navbar .bar{
+    background-color: black;
+    height: 4px;
+    width: 33px;
+    margin: 3px;
+    border-radius: 10px;
+}
+.navbar .hambuger{
+    display:flex ;
+    flex-direction: column;
+    j
+} */
 .project{
     /* width: 300px; */
     position: relative;
@@ -135,10 +152,14 @@ body{
         font-weight: bolder;
         font-size:30px ;
     }
+    .navbar .right a{
+        color: crimson;
+    }
     .footer{
         color: crimson;
         padding:  55px;
         font-size: 20px;
+        font-weight: bolder;
     }
 }
 @media only screen and (max-width:768px){
@@ -161,12 +182,15 @@ body{
         font-size: 25px;
     }
     .navbar .left{
-        color: pink;
+        color: darkorchid;
         font-weight: bolder;
         font-size:28px ;
     }
+    .navbar .right a{
+        color: darkorchid;
+    }
     .footer{
-        color: pink;
+        color: darkorchid;
         padding:  50px;
         font-size: 18px;
     }
@@ -175,6 +199,24 @@ body{
         body{
             background-color:darkmagenta;
         }
+        /* .navbar{
+            padding: 16px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 3;
+            width: 100%;
+            background-color: darkmagenta;
+        }
+        .navbar .right{
+            display: none;
+        }
+        .navbar .hambuger{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        } */
         .project-grid{
             width: 80%;
             grid-template-areas: 
@@ -194,6 +236,9 @@ body{
             color: grey;
             font-weight: bolder;
             font-size:25px ;
+        }
+        .navbar .right a{
+            color:grey;
         }
         .footer{
             color: grey;
