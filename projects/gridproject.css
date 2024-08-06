@@ -2,7 +2,7 @@ body{
     font-family: "Poppins", sans-serif;
 }
 .container{
-    max-width:90% ;
+    max-width:80% ;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -17,7 +17,7 @@ body{
     font-size:35px ;
 }
 .navbar .right{
-    width: 400px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +40,7 @@ body{
     text-decoration: underline;
     transform:scale(1.15) ;
 }
-.navbar .bar{
+.bar1, .bar2, .bar3{
     background-color:black;
     height: 4px;
     width: 36px;
@@ -48,8 +48,7 @@ body{
     border-radius: 10px;
 }
 .navbar .hamburger{
-    width: 50px;
-    height: 50px;
+    display:none ;
 }
 .project{
     position: relative;
@@ -130,7 +129,7 @@ body{
 }
 @media only screen and (max-width:1100px){
     body{
-        background-color: black;
+        background-color: grey;
     }
     .project-grid{
         width: 80%;
@@ -165,8 +164,8 @@ body{
         background-color:orange;
     }
     .project-grid{
-        margin-top: 100px;
-        width: 80%;
+        margin-top: 110px;
+        width: 70%;
         grid-template-areas: 
         "eth eth "
         "alphabet alphabet"
@@ -181,13 +180,13 @@ body{
         font-size: 25px;
     }
     .navbar{
-        padding: 16px 24px;
+        padding: 20px 24px;
         box-sizing: border-box;
         position: fixed;
         top: 0;
         left: 0;
         z-index: 3;
-        background-color: white;
+        background-color:orange;
         width: 100%;
     }
     .navbar .left{
@@ -218,8 +217,32 @@ body{
         body{
             background-color:darkmagenta;
         }
+        .navbar{
+            padding: 20px 24px;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 3;
+            background-color:darkmagenta;
+            width: 100%;
+        }
+        .navbar .left{
+            color: grey;
+            font-weight: bolder;
+            font-size:28px ;
+        }
+        .navbar .right{
+            display: none;
+        }
+        .navbar .hamburger{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .project-grid{
-            width: 80%;
+            width: 60%;
             grid-template-areas: 
             "eth eth "
             "alphabet alphabet"
@@ -245,6 +268,40 @@ body{
             color: grey;
             padding:  45px;
             font-size: 15px;
-        }
-        
+        }   
+}
+.hamburger .bar:nth-child(1){
+    animation: flipBar1 1s infinite;
+}
+.hamburger .bar:nth-child(2){
+    animation: fadeBar2 1s infinite;
+}
+.hamburger .bar:nth-child(3){
+    animation: flipBar3 1s infinite;
+}
+@keyframes fadeBar2 {
+    from{
+        transform: scaleX(1);
+        opacity: 1;
+    }
+    to{
+        transform: scaleX(0);
+        opacity: 0;
+    }
+}
+@keyframes flipBar1 {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(45deg) translate(4px, 10px);
+    }
+}
+@keyframes flipBar3 {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(-45deg)translate(4px, -10px);
+    }
 }
