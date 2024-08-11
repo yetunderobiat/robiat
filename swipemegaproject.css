@@ -197,7 +197,7 @@ main{
     padding: 0 0 0 var(--spacing-md);
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: start;
     justify-content: center;
 }
 .button-container{
@@ -211,9 +211,11 @@ main{
 .hero p{
     max-width: 480px;
 }
-.hero-phone-container{
-    height: 300px;
+.hero .hero-phone-container{
+    height: 400px;
+    align-items: flex-end;
 }
 .hero-phone{
-    height: 450px;
+    height: 500px;
+    transform: translate(7px -7px);
 }
