@@ -38,6 +38,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     padding: var(--spacing-sm) 0 0 0;
+    background-color: var(--purple-1s);
 }
 h1{
     font-family: var(--heading-font);
@@ -119,4 +120,16 @@ p{
 .secondary-button:hover{
     opacity: 0.75;
     cursor: pointer;
+}
+.with-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.with-icon > img{
+    transition: transform 0.25s ease;
+}
+.with-icon:hover > img{
+    transform: translateX(5px);
 }
