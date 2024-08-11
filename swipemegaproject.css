@@ -17,10 +17,7 @@
     --p-height:26px;
     --sec-text-size:14px;
     --sec-text-height:18px;
-    --purple-1:#b34e5d; 
-    --purple-2:#a2ee4f;
-    --primary-accent:#6ad273;
-    --blue-1:#00d4ff;
+    --button-size:16px;
     /* spacing */
     --spacing-sm:8px;
     --spacing-md:16px;
@@ -28,6 +25,11 @@
     --spacing-xl:64px;
     --bg-white:#fff;
     --bg-light:#f7f9fc;
+    --purple-1:#b34e5d; 
+    --purple-2:#a2ee4f;
+    --primary-accent:#6ad273;
+    --blue-1:#00d4ff;
+    --btn-hover-color:#6d7a88;
 }
 body{
     font-family: var(--body-font);
@@ -86,4 +88,35 @@ p{
     line-height: var(--sec-text-height);
     color: var(--text-grey);
     letter-spacing: 0.25px;
+}
+.primary-button{
+    font-family: var(--body-font);
+    font-size: var(--button-size);
+    letter-spacing: 1.25px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    color: var(--text-light);
+    background-color: var(--primary-accent);
+    padding: var(--spacing-sm) var(--spacing-md);
+    transition: all 0.15s ease;
+}
+.primary-button:hover{
+    background-color: var(--btn-hover-color);
+    cursor: pointer;
+}
+.secondary-button{
+    font-family: var(--body-font);
+    font-size: var(--button-size);
+    letter-spacing: 1.25px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    color: var(--primary-accent);
+    background-color: transparent;
+    transition: all 0.15s ease;
+}
+.secondary-button:hover{
+    opacity: 0.75;
+    cursor: pointer;
 }
