@@ -231,3 +231,17 @@ main{
     height: 75px;
     place-self: center;
 }
+.unified-platform{
+    padding: var(--spacing-xl) 0;
+}
+.unified-platform h2{
+    width: 50%;
+    margin-bottom: var(--spacing-md);
+}
+.unified-platform .primary-button{
+    background-color: var(--purple-1);
+    margin: var(--spacing-md) 0;
+}
+.unified-platform .primary-button:hover{
+    background-color: var(--primary-accent);
+}
